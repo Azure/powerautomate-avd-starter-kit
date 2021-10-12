@@ -1,24 +1,31 @@
-# TODO: The maintainer of this repo has not yet edited this file
-
-**REPO OWNER**: Do you want Customer Service & Support (CSS) support for this product/project?
-
-- **No CSS support:** Fill out this template with information about how to file issues and get help.
-- **Yes CSS support:** Fill out an intake form at [aka.ms/spot](https://aka.ms/spot). CSS will work with/help you to determine next steps. More details also available at [aka.ms/onboardsupport](https://aka.ms/onboardsupport).
-- **Not sure?** Fill out a SPOT intake as though the answer were "Yes". CSS will help you decide.
-
-*Then remove this first heading from this SUPPORT.MD file before publishing your repo.*
-
 # Support
 
-## How to file issues and get help  
+## Report a Bug or submit a Feature Request
 
-This project uses GitHub Issues to track bugs and feature requests. Please search the existing 
-issues before filing new issues to avoid duplicates.  For new issues, file your bug or 
-feature request as a new Issue.
+Have you found a bug in the Power Automate AVD Starter Kit Starter Kit or do you want to suggest a new feature? Either way, please let us now by filing an issue while observing the following guidelines
 
-For help and questions about using this project, please **REPO MAINTAINER: INSERT INSTRUCTIONS HERE 
-FOR HOW TO ENGAGE REPO OWNERS OR COMMUNITY FOR HELP. COULD BE A STACK OVERFLOW TAG OR OTHER
-CHANNEL. WHERE WILL YOU HELP PEOPLE?**.
+### Look for an existing issue
+
+Before submitting your issue please search the [issues](https://github.com/Azure/powerautomate-avd-starter-kit/issues) to ensure your issue has not already been reported.
+
+If your bug or feature request has already been reported, join the conversation by commenting and adding your reaction. Please use reactions to vote and not "+1" comments.
+
+- 👍 - upvote
+- 👎 - downvote
+
+### Submitting your Issue
+
+File a single issue per problem and feature request. Do not enumerate multiple bugs or feature requests in the same issue.
+
+Do not add your issue as a comment to an existing issue unless it's for the identical input. Many issues look similar, but have different causes.
+
+The more information you can provide, the more likely someone will be successful at reproducing the issue and finding a fix.
+
+## Asking and Answering Questions
+
+Join the [discussions](https://github.com/microsoft/powerautomate-avd-starter-kit/discussions) and ask your question or contribute by answering questions from others. This is a great way to contribute by helping the Power Automate AVD Starter Kit community.
+
+If you have general questions about Power Platform Governance, unrelated to the CoE Starter Kit, please raise them in the [Power Automate Community forum](https://powerusers.microsoft.com/t5/Microsoft-Power-Automate/ct-p/MPACommunity)
 
 ## Microsoft Support Policy  
 
