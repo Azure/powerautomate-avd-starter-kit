@@ -1,9 +1,11 @@
 # Microsoft Power Automate AVD integration Starter kit
 The Power Automate Azure Virtual Desktop integration Starter Kit is a set of templates that are designed to help orchestrate and scale Virtual machines used to run desktop flows. The kit includes a Power Apps and multiple flows to automate the scaling up and down of machines. The assets part of the Starter Kit should be seen as a template from which you inherit your individual solution or can serve as inspiration for implementing your own apps and flows.
 
+You can download the Starter Kit from this repo and follow the [documentation](https://go.microsoft.com/fwlink/?linkid=2174628) to setup and start using the Starter Kit. 
+
 # About this GitHub repo
 
-The Power Automate AVD Starter Kit GitHub Repo contains the source, releases, issues and backlog items of [all components](https://docs.microsoft.com/en-us/power-automate/desktop-flows/manage-machines) that are part of the Starter Kit.
+The Power Automate AVD Starter Kit GitHub Repo contains the source, releases, issues and backlog items of [all components](https://go.microsoft.com/fwlink/?linkid=2174628) that are part of the Starter Kit.
 
 ## Report a Bug or submit a Feature Request
 
