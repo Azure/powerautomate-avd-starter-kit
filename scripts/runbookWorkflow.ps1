@@ -177,9 +177,11 @@ try
     $padInstallScriptParameters = @{ EncryptedAzureAppSecret = "$encryptedAzureAppSecret"; AzureAppId = "$AzureAppId"; TenantId="$TenantId"; EnvironmentId="$EnvironmentId"; GroupId="$GroupId"; EncryptedGroupPassword="$encryptedGroupPassword" }
     $invokeReturnedValue = Invoke-AzVMRunCommand -ResourceGroupName $ServiceName -Name $VMName -CommandId 'RunPowerShellScript' -ScriptPath $padInstallScriptPath -Parameter $padInstallScriptParameters
     $invokeOutput = $invokeReturnedValue.value.Message
-    if ($invokeOutput -like '*StdErr*') {
-        Write-Error "An error was detected during PAD install or machine registration: `n$invokeOutput"
-    } 
+    if ($invokeOutput.ToLower() -like '*error*') {
+        Write-Error "Error: `n$invokeOutput"
+    } else {
+        Write-Output "Success: `n$invokeOutput"
+    }
 }
 catch
 {
