@@ -1,3 +1,6 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT license.
+
 <#
 .SYNOPSIS
 Executes PAD install on a VM
@@ -42,9 +45,6 @@ None. You cannot pipe objects to Push-Command.
 System.String Returns a string with either a success message, or the output of the PAD install script run on the Azure VM (if WaitForCompletion is set to $true).  
 #>
 
-#TODOs:
-# - Validate inputs
-# - Read $secureKey from a keyvault
 
 param
 (
